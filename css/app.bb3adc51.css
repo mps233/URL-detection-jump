@@ -1,1 +1,105 @@
-#app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}.redirector[data-v-3889ef95]{text-align:center;padding:20px;font-family:Arial,sans-serif}.blink[data-v-3889ef95]{color:#ff4136;animation:blinkingText-3889ef95 1s infinite}@keyframes blinkingText-3889ef95{0%{opacity:0}50%{opacity:1}to{opacity:0}}.favorite-button[data-v-3889ef95]{width:180px;height:50px;background-color:#0074d9;color:#fff;border:none;border-radius:25px;font-size:16px;cursor:pointer;transition:background-color .3s,transform .1s;margin:20px 0}.favorite-button[data-v-3889ef95]:hover{background-color:#0056b3;transform:scale(1.05)}.progress-container[data-v-3889ef95]{width:400px;height:15px;background-color:#f3f3f3;border-radius:7px;margin:20px auto;overflow:hidden}.progress-bar[data-v-3889ef95]{height:100%;background-color:#4caf50;border-radius:7px;transition:width .3s ease-in-out}
+body {
+    background-color: #eaeaea;
+
+}
+
+#app {
+	font-family:Avenir,Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	text-align:center;
+	color:#2c3e50;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: block;
+    border: 1px solid #f6f6f7;
+    border-radius: 12px;
+    height: 100%;
+    background-color: #f6f6f7;
+    transition: border-color .5s, background-color .5s;
+    width: 500px;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.1);  /* 添加投影 */
+}
+.redirector[data-v-3889ef95] {
+	text-align:center;
+	padding:60px;
+	font-family:Arial,sans-serif
+}
+.blink[data-v-3889ef95] {
+	color:#f2abb9;
+	/* animation:blinkingText-3889ef95 1s infinite */
+}
+@keyframes blinkingText-3889ef95 {
+	0% {
+	opacity:0
+}
+50% {
+	opacity:1
+}
+to {
+	opacity:0
+}
+}.favorite-button[data-v-3889ef95] {
+    line-height: 38px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #3c3c434a;
+    white-space: nowrap;
+    color: #3c3c43;
+    margin-right: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+.favorite-button[data-v-3889ef95]:hover {
+	background-color:#cacaca;
+	transform:scale(1.05)
+}
+.progress-container[data-v-3889ef95] {
+	width:400px;
+	height:15px;
+	background-color:#f3f3f3;
+	border-radius:7px;
+	margin:20px auto;
+	overflow:hidden
+}
+.progress-bar[data-v-3889ef95] {
+	height:100%;
+	background-color:#F2ABB9;
+	border-radius:7px;
+	transition:width .3s ease-in-out
+}
+.namej {
+    font-size: 70px;
+    font-weight: 700;
+    text-align:center;
+    background: -webkit-linear-gradient(300deg,#F2ABB9 25%,#5d76e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+}
+.welcome-title {
+    font-size: 20px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(300deg,#F2ABB9 25%,#5d76e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bocchi-img {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100px;
+    z-index: 999;
+    /* background-color: #000; */
+    border-radius: 50%;
+    border-color: #000;
+    border: 3px solid #fff;
+}
+
+h1 {
+    background: -webkit-linear-gradient(300deg,#F2ABB9 25%,#5d76e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
