@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>线路检测</title>
-  <script defer src="/js/chunk-vendors.2b568997.js"></script><script defer src="/js/app.1c679c4f.js"></script><link href="/css/app.bb3adc51.css" rel="stylesheet"></head>
-  <body>
-    <div class="namej">
-      <img class="bocchi-img" src="/images/20230109185501_d7093.thumb.700_0.png" alt="">
-      <div class="image-bg"></div>
-    </div>
-    <noscript>
-      <strong>很抱歉，如果没有启用 JavaScript，将无法正常工作。请启用它以继续。</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- 客服代码在这里替换 -->
-  </body>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>发布页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main-content">
+    <section class="hero">
+      <img class="logo" src="./img/bocchi-face.png" alt="">
+      <h2 class="welcome">欢迎访问，正在选择最佳线路</h2>
+      <p>收藏此页面防止失联</p>
+      <button class="favorite-button" onclick="addToFavorites()">添加到收藏夹</button>
+      <h3 class="choose" id="mainMessage">波奇酱正在为您选择最佳线路...</h3>
+      <div id="progress-container" class="progress-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+      <h3 id="message"></h3>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
 </html>
+
+

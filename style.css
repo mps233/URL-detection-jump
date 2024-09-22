@@ -1,0 +1,175 @@
+/* 全局样式 */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  
+}
+
+h1, h2, h3, p {
+  margin: 0 0 15px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: #42b983;
+}
+
+/* 顶部导航栏 */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f4c1d8;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  color: white;
+  display: inline;
+  font-size: 1.8rem;
+}
+
+.navbar nav {
+  float: right;
+}
+
+.navbar nav a {
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 1rem;
+  
+}
+
+.navbar nav a:hover {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* 主要内容 */
+.main-content {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #64748b;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: -webkit-linear-gradient(310deg, #F2ABB9 25%, #5d76e6);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #36966e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 进度条样式 */
+.progress-container {
+  background-color: #e0e0e0;
+  margin-top: 20px;
+  height: 8px;
+  border-radius: 4px;
+  margin: 20px 50px 20px 50px;
+}
+
+.progress-bar {
+  width: 0;
+  height: 8px;
+  background: -webkit-linear-gradient(300deg, #F2ABB9 25%, #5d76e6);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* 页脚样式 */
+footer {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0px 0px 0px !important; 
+  padding: 20px;
+  background-color: #f4c1d8;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .navbar nav {
+    float: none;
+    text-align: center;
+  }
+
+  .navbar nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+.choose {
+  padding-top: 30px;
+  background: -webkit-linear-gradient(300deg, #F2ABB9 25%, #5d76e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#message {
+  color: #a8a8a8;
+  font-weight: 200;
+}
+
+.welcome {
+  background: -webkit-linear-gradient(300deg, #F2ABB9 25%, #5d76e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+  
